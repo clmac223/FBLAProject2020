@@ -17,6 +17,8 @@
 package com.example.android.tabexperiment;
 
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -37,8 +39,22 @@ public class TabFragment3 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.tab_fragment3, container, false);
+
+    }
+    public void goToSo (View view) {
+        goToUrl ( "https://www.fbla-pbl.org/competitive-event/mobile-application-development-fbla/");
     }
 
+    public void goToSu (View view) {
+        goToUrl ( "http://superuser.com/");
+    }
+
+    private void goToUrl (String url) {
+        Uri uriUrl = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
 }

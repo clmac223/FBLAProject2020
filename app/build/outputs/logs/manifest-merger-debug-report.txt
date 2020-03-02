@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:18:1-37:12
-INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:18:1-37:12
-INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:18:1-37:12
-INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:18:1-37:12
+ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:18:1-37:12
+INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:18:1-37:12
+INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:18:1-37:12
+INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:18:1-37:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\fc0320cd13bf10cf6d7c97e5692578aa\design-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\e4a41c2346dd5a38c111db5ef8bb8159\appcompat-v7-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\5185414ffa79aa627d5e690e95e8e487\constraint-layout-1.0.2\AndroidManifest.xml:2:1-11:12
@@ -18,25 +18,29 @@ MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Android\.gradl
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\01fa180fba081b893896aeab7a3b4770\support-core-ui-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\5971f3a89ffb6bfcd466bd26a390798b\support-compat-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:18:1-37:12
-INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:18:1-37:12
-INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:18:1-37:12
+INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:18:1-37:12
+INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:18:1-37:12
+INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:18:1-37:12
 	package
-		ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:19:5-48
-		INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:19:5-48
+		INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:18:1-37:12
-		INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:18:1-37:12
+		INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:18:1-37:12
-		INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:18:1-37:12
+		INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:18:11-69
+		ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:18:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:20:22-64
 application
-ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:21:5-35:19
+ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:21:5-35:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\fc0320cd13bf10cf6d7c97e5692578aa\design-26.1.0\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\fc0320cd13bf10cf6d7c97e5692578aa\design-26.1.0\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\e4a41c2346dd5a38c111db5ef8bb8159\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
@@ -66,35 +70,35 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Android\.gradle
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:26:9-35
+		ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:26:9-35
 	android:label
-		ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:24:9-41
+		ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:24:9-41
 	android:roundIcon
-		ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:25:9-54
+		ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:25:9-54
 	android:icon
-		ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:23:9-43
+		ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:23:9-43
 	android:allowBackup
-		ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:22:9-35
+		ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:22:9-35
 	android:theme
-		ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:27:9-40
+		ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:27:9-40
 activity#com.example.android.tabexperiment.MainActivity
-ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:28:9-34:20
+ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:28:9-34:20
 	android:name
-		ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:28:19-47
+		ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:28:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml:32:27-74
 uses-sdk
-INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:design:26.1.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\fc0320cd13bf10cf6d7c97e5692578aa\design-26.1.0\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:26.1.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\fc0320cd13bf10cf6d7c97e5692578aa\design-26.1.0\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\e4a41c2346dd5a38c111db5ef8bb8159\appcompat-v7-26.1.0\AndroidManifest.xml:21:5-23:78
@@ -123,18 +127,18 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Android\.gradle
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\5971f3a89ffb6bfcd466bd26a390798b\support-compat-26.1.0\AndroidManifest.xml:21:5-23:58
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.1.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\fc0320cd13bf10cf6d7c97e5692578aa\design-26.1.0\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Android\Desktop\FBLA Project\TabExperiment\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Android\Desktop\FBLA\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\fc0320cd13bf10cf6d7c97e5692578aa\design-26.1.0\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Android\.gradle\caches\transforms-2\files-2.1\e4a41c2346dd5a38c111db5ef8bb8159\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38

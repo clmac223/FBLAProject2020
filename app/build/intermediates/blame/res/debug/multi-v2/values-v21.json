@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Android\\Desktop\\FBLA Project\\TabExperiment\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\Android\\Desktop\\FBLA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Android\\.gradle\\caches\\transforms-2\\files-2.1\\1f5e5a3749811a09444f656c64df9871\\support-media-compat-26.1.0\\res\\values-v21\\values-v21.xml",

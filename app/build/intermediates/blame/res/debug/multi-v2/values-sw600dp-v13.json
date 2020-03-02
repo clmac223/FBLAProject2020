@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Android\\Desktop\\FBLA Project\\TabExperiment\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "C:\\Users\\Android\\Desktop\\FBLA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Android\\.gradle\\caches\\transforms-2\\files-2.1\\fc0320cd13bf10cf6d7c97e5692578aa\\design-26.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",

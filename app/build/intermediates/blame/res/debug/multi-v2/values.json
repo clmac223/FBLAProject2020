@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Android\\Desktop\\FBLA Project\\TabExperiment\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Android\\Desktop\\FBLA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Android\\.gradle\\caches\\transforms-2\\files-2.1\\5185414ffa79aa627d5e690e95e8e487\\constraint-layout-1.0.2\\res\\values\\values.xml",
@@ -23,20 +23,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Android\\Desktop\\FBLA Project\\TabExperiment\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\Android\\Desktop\\FBLA\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "20,18,19",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "770,672,719",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "811,714,765"
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "690",
+                        "endLines": "26",
+                        "endColumns": "12",
+                        "endOffsets": "1108"
                     },
                     "to": {
-                        "startLines": "118,119,120",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "6234,6280,6327",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "6275,6322,6373"
+                        "startLines": "426",
+                        "startColumns": "4",
+                        "startOffsets": "26983",
+                        "endLines": "433",
+                        "endColumns": "12",
+                        "endOffsets": "27394"
                     }
                 },
                 {
@@ -56,6 +58,23 @@
                         "endLines": "151,152,248,249,250,251,252,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,329,330,338,339,347,348,351,368,410,1704,1708,1710,1716,1718,1902,1903,2194,2198",
                         "endColumns": "68,62,69,67,71,69,60,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,33,34,34,69,70,116,12,109,12,128,71,66,35,115",
                         "endOffsets": "8361,8424,15045,15113,15185,15255,15316,18929,18990,19052,19116,19178,19239,19307,19407,19467,19533,19606,19675,19732,19784,19846,20371,20447,20827,20862,21228,21263,21390,22354,25936,111568,111769,111945,112329,112524,126162,126229,155370,155643"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Android\\Desktop\\FBLA\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "20,18,19",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "790,690,738",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "831,732,784"
+                    },
+                    "to": {
+                        "startLines": "118,119,120",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "6234,6280,6327",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "6275,6322,6373"
                     }
                 },
                 {
@@ -110,32 +129,13 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Android\\Desktop\\FBLA Project\\TabExperiment\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "19",
-                        "startColumns": "4",
-                        "startOffsets": "671",
-                        "endLines": "26",
-                        "endColumns": "12",
-                        "endOffsets": "1082"
-                    },
-                    "to": {
-                        "startLines": "426",
-                        "startColumns": "4",
-                        "startOffsets": "26983",
-                        "endLines": "433",
-                        "endColumns": "12",
-                        "endOffsets": "27394"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Android\\Desktop\\FBLA Project\\TabExperiment\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\Android\\Desktop\\FBLA\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "17,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "633,686,747,804,852,903,952",
+                        "startOffsets": "650,705,767,825,874,926,976",
                         "endColumns": "51,60,56,47,50,48,46",
-                        "endOffsets": "680,742,799,847,898,947,994"
+                        "endOffsets": "697,761,819,868,920,970,1018"
                     },
                     "to": {
                         "startLines": "400,411,412,413,414,415,416",

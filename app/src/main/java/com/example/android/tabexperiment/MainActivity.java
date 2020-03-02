@@ -16,17 +16,22 @@
 
 package com.example.android.tabexperiment;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 
 /**
  * This app offers three view fragments and three tabs below the app bar to
  * navigate to them, as well as the options menu showing Settings.
  */
 public class MainActivity extends AppCompatActivity {
-
+Button hell;
     /**
      * Creates the content view and toolbar, sets up the tab layout, and sets up
      * a page adapter to manage views in fragments. The user clicks a tab and
@@ -38,16 +43,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        hell = findViewById(R.id.open_website_button);
         android.support.v7.widget.Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("FBLA Mobile Devolpment");
 
         // Create an instance of the tab layout from the view.
         TabLayout tabLayout = findViewById(R.id.tab_layout);
-        // Set the text for each tab.
+        // Set the text for each tab.cal
         tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label1));
         tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label2));
-        tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label3));
+        tabLayout.addTab(tabLayout.newTab().setText("About & Links "));
 
         // Set the tabs to fill the entire layout.
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
@@ -67,6 +73,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
+
+                if(tab.getPosition() > 0)
+                    hell.setVisibility(View.GONE);
+                else
+                    hell.setVisibility(View.VISIBLE);
+                /*if(tab.getPosition() == 0)
+                    hell.setVisibility(View.GONE);*/
+
             }
 
             @Override
@@ -78,4 +92,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    public void openWebsite(View view) {
+        // Get the URL text.
+        String url = "https://www.fbla-pbl.org/competitive-event/mobile-application-development-fbla/";
+
+        // Parse the URI and create the intent.
+        Uri webpage = Uri.parse(url);
+        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+
+        // Find an activity to hand the intent and start that activity.
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        } else {
+            Log.d("ImplicitIntents", "Can't handle this!");
+        }
+    }
+
 }
