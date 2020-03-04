@@ -27,35 +27,33 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="87dp"
         android:text="@string/tab_3"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:text="Officers:" />
     <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="CLicks" />
 
-    <Button
-        android:id="@+id/button_so"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="146dp"
+        android:layout_height="287dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="291dp"
-        android:autoLink="web"
-        android:clickable="true"
-        android:cursorVisible="true"
-        android:linksClickable="true"
-        android:onClick="goToSo"
-        android:text="StackOverflow"></Button>
-
-    <Button
-        android:id="@+id/button_su"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_marginStart="3dp"
-        android:layout_marginBottom="43dp"
-        android:autoLink="web"
-        android:clickable="true"
-        android:onClick="goToSu"
-        android:text="SuperUser"></Button>
+        android:layout_marginTop="129dp"
+        android:layout_marginEnd="262dp"
+        android:layout_marginRight="262dp" />
+
+    <Spinner
+        android:id="@+id/label_spinner"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="246dp"
+        android:layout_marginRight="246dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -63,10 +61,29 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="39dp"
-        android:layout_marginLeft="39dp"
-        android:layout_marginTop="172dp"
-        android:text="TextView" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginBottom="243dp"
+        android:text="Officer" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="238dp"
+        android:text="was absent at" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="158dp"
+        android:layout_height="263dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginRight="-5dp"
+        android:layout_marginBottom="-7dp" />
 
 </RelativeLayout>

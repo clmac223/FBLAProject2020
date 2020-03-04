@@ -32,7 +32,10 @@ import android.widget.Button;
  */
 public class MainActivity extends AppCompatActivity {
 Button hell;
-    /**
+    Button hell2;
+    Button hell3;
+    Button hell4;
+     /**3
      * Creates the content view and toolbar, sets up the tab layout, and sets up
      * a page adapter to manage views in fragments. The user clicks a tab and
      * navigates to the view fragment.
@@ -44,6 +47,9 @@ Button hell;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         hell = findViewById(R.id.open_website_button);
+        hell2 = findViewById(R.id.button);
+        hell3 = findViewById(R.id.button1);
+        hell4 = findViewById(R.id.button2);
         android.support.v7.widget.Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("FBLA Mobile Devolpment");
@@ -51,9 +57,9 @@ Button hell;
         // Create an instance of the tab layout from the view.
         TabLayout tabLayout = findViewById(R.id.tab_layout);
         // Set the text for each tab.cal
-        tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label1));
-        tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label2));
-        tabLayout.addTab(tabLayout.newTab().setText("About & Links "));
+        tabLayout.addTab(tabLayout.newTab().setText("About & Links"));
+        tabLayout.addTab(tabLayout.newTab().setText("Signup For Events"));
+        tabLayout.addTab(tabLayout.newTab().setText("Officers"));
 
         // Set the tabs to fill the entire layout.
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
@@ -78,6 +84,21 @@ Button hell;
                     hell.setVisibility(View.GONE);
                 else
                     hell.setVisibility(View.VISIBLE);
+
+                if(tab.getPosition() > 0)
+                    hell2.setVisibility(View.GONE);
+                else
+                    hell2.setVisibility(View.VISIBLE);
+
+                if(tab.getPosition() > 0)
+                    hell3.setVisibility(View.GONE);
+                else
+                    hell3.setVisibility(View.VISIBLE);
+
+                if(tab.getPosition() > 0)
+                    hell4.setVisibility(View.GONE);
+                else
+                    hell4.setVisibility(View.VISIBLE);
                 /*if(tab.getPosition() == 0)
                     hell.setVisibility(View.GONE);*/
 
@@ -108,4 +129,51 @@ Button hell;
         }
     }
 
+    public void openWebsite2(View view) {
+        // Get the URL text.
+        String url = "https://twitter.com/MediaFbla/";
+
+        // Parse the URI and create the intent.
+        Uri webpage = Uri.parse(url);
+        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+
+        // Find an activity to hand the intent and start that activity.
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        } else {
+            Log.d("ImplicitIntents", "Can't handle this!");
+        }
+    }
+
+    public void openWebsite3(View view) {
+        // Get the URL text.
+        String url = "https://www.fbla-pbl.org/contact/";
+
+        // Parse the URI and create the intent.
+        Uri webpage = Uri.parse(url);
+        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+
+        // Find an activity to hand the intent and start that activity.
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        } else {
+            Log.d("ImplicitIntents", "Can't handle this!");
+        }
+    }
+
+    public void openWebsite4(View view) {
+        // Get the URL text.
+        String url = "https://www.fbla-pbl.org/fbla/competitive-events/";
+
+        // Parse the URI and create the intent.
+        Uri webpage = Uri.parse(url);
+        Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+
+        // Find an activity to hand the intent and start that activity.
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        } else {
+            Log.d("ImplicitIntents", "Can't handle this!");
+        }
+    }
 }

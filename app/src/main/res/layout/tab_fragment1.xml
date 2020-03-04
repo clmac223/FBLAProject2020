@@ -27,7 +27,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="88dp"
-        android:text="@string/tab_1"
+        android:text="FBLA is an organization that hosts a multitude of events available to many sectors of software and marketing."
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <CalendarView

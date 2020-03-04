@@ -63,13 +63,44 @@
         android:onClick="openWebsite"
         android:text="To About Page" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="114dp"
+        android:onClick="openWebsite2"
+        android:text="Twitter" />
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
-        android:layout_below="@id/tab_layout"
-        android:layout_marginTop="24dp" >
+        android:layout_below="@id/tab_layout"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="273dp"
+        android:layout_marginBottom="114dp"
+        android:onClick="openWebsite3"
+        android:text="Contact Info" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="114dp"
+        android:onClick="openWebsite4"
+        android:text="Current Event" />
 
 
-    </android.support.v4.view.ViewPager>
 </RelativeLayout>
