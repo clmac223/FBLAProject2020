@@ -58,7 +58,7 @@ Button hell;
         TabLayout tabLayout = findViewById(R.id.tab_layout);
         // Set the text for each tab.cal
         tabLayout.addTab(tabLayout.newTab().setText("About & Links"));
-        tabLayout.addTab(tabLayout.newTab().setText("Signup For Events"));
+        tabLayout.addTab(tabLayout.newTab().setText("Signup For Events/Position"));
         tabLayout.addTab(tabLayout.newTab().setText("Officers"));
 
         // Set the tabs to fill the entire layout.
